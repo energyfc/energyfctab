@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonato Energy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            color: #000;
+        }
+        h1 {
+            color: #1e861e;
+            text-shadow: 2px 2px 4px #000;
+        }
+        h2 {
+            color: #000;
+            border-bottom: 3px solid #1e861e;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            border: 3px solid #000000;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+        }
+        th {
+            background: #1e861e;
+            color: #000000;
+        }
+        tr:nth-child(even) {
+            background: #F0FFF0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .team-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Campeonato Energy</h1>
+        <h2>Tabela de Pontos Corridos</h2>
+        <table id="tabela-pontos">
+            <tr>
+                <th>Posição</th>
+                <th>Time</th>
+                <th>Pontos</th>
+                <th>Jogos</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Saldo de Gols</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="40+.jpg" alt="Time Y" class="team-logo"></td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="40-.jpg" alt="Time X" class="team-logo"></td>
+                <td>2</td>  
+                <td>2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+        </table>
+        
+        <h2>Tabela de Jogos</h2>
+        <table>
+            <tr>
+                <th>Rodada</th>
+                <th>Time A</th>
+                <th>Placar</th>
+                <th>Time B</th>
+                <th>Data</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="40-.jpg" alt="Time X" class="team-logo"></td>
+                <td>3 - 5</td>
+                <td><img src="40+.jpg" alt="Time Y" class="team-logo"></td>
+                <td>25/01/2025</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="40-.jpg" alt="Time Y" class="team-logo"></td>
+                <td>4 - 4</td>
+                <td><img src="40+.jpg" alt="Time X" class="team-logo"></td>
+                <td>01/02/2025</td>
+            </tr>
+    
+            <tr>
+                <td>3</td>
+                <td><img src="40-.jpg" alt="Time Y" class="team-logo"></td>
+                <td>- </td>
+                <td><img src="40+.jpg" alt="Time X" class="team-logo"></td>
+                <td>08/02/2025</td>
+            </tr>
+        </table>
+        
+        <h2>Artilharia</h2>
+        <table id="artilharia">
+            <tr>
+                <th>Posição</th>
+                <th>Jogador</th>
+                <th>Time</th>
+                <th>Gols</th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>LUCÃO</td>
+                <td><img src="40-.jpg" alt="Time X" class="team-logo"></td>
+                <td class="gols">1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>DUIK</td>
+                <td><img src="40-.jpg" alt="Time Y" class="team-logo"></td>
+                <td class="gols">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>DI</td>
+                <td><img src="40-.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>S. JUNIOR</td>
+                <td><img src="40-.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>TORRINHA</td>
+                <td><img src="40+.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>DRIBLA</td>
+                <td><img src="40+.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SERGINHO V.</td>
+                <td><img src="40+.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>NO</td>
+                <td><img src="40+.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>BIRTO</td>
+                <td><img src="40+.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="gols">1</td>
+            </tr>
+        </table>
+        
+        <h2>Líderes em Assistências</h2>
+        <table id="assistencias">
+            <tr>
+                <th>Posição</th>
+                <th>Jogador</th>
+                <th>Time</th>
+                <th>Assistências</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DIERO R.</td>
+                <td><img src="40-.jpg" alt="Time Z" class="team-logo"></td>
+                <td class="assistencias">1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>THIAGO</td>
+                <td><img src="40-.jpg" alt="Time W" class="team-logo"></td>
+                <td class="assistencias">2</td>
+            </tr>
+           
+        </table>
+
+        
+    </div>
+
+    <script>
+        function sortTable(tableId, className) {
+            let table = document.getElementById(tableId);
+            let rows = Array.from(table.rows).slice(1); // Pegar todas as linhas exceto o cabeçalho
+
+            rows.sort((rowA, rowB) => {
+                let valueA = parseInt(rowA.querySelector(`.${className}`).innerText);
+                let valueB = parseInt(rowB.querySelector(`.${className}`).innerText);
+                return valueB - valueA; // Ordena de forma decrescente
+            });
+
+            // Reorganizar as linhas na tabela
+            rows.forEach(row => table.appendChild(row));
+        }
+
+        // Ordenar as tabelas assim que a página carregar
+        window.onload = () => {
+            sortTable("artilharia", "gols");
+            sortTable("assistencias", "assistencias");
+            sortTable("tabela-pontos", "pontos");
+        };
+    </script>
+</body>
+</html>
